@@ -60,7 +60,7 @@ export default function SearchPage() {
           <p className="text-slate-700 leading-relaxed">
             Combine multiple filters for precise results:
           </p>
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 space-y-3 mt-4">
+          <div className="bg-orange-50 border border-orange-200 rounded-lg p-6 space-y-3 mt-4">
             <p className="text-slate-700">
               Click "Filters" and select multiple criteria to narrow down your results
               exactly the way you want.

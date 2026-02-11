@@ -54,7 +54,7 @@ export function TableOfContents({ content }: TableOfContentsProps) {
             >
               <Link
                 href={`#${heading.id}`}
-                className="text-slate-600 hover:text-blue-600 transition-colors"
+                className="text-slate-600 hover:text-brand transition-colors"
               >
                 {heading.text}
               </Link>

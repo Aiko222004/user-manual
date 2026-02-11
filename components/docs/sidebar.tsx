@@ -120,7 +120,7 @@ export function Sidebar({ variant = 'desktop' }: SidebarProps) {
                     href={item.href}
                     className={`block px-4 py-2 text-sm rounded transition-colors ${
                       isActive(item.href)
-                        ? 'bg-blue-100 text-blue-900 font-semibold'
+                        ? 'bg-orange-100 text-orange-900 font-semibold'
                         : 'text-slate-700 hover:bg-slate-100'
                     }`}
                   >

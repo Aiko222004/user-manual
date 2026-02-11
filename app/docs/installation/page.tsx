@@ -118,7 +118,7 @@ export default function InstallationPage() {
             ].map((item) => (
               <div key={item.step} className="border border-slate-200 rounded-lg p-6">
                 <div className="flex gap-4 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold flex-shrink-0">
+                  <div className="w-10 h-10 rounded-full bg-brand text-white flex items-center justify-center font-bold flex-shrink-0">
                     {item.step}
                   </div>
                   <h3 className="text-xl font-semibold text-slate-900 mt-1">
@@ -258,7 +258,7 @@ export default function InstallationPage() {
           <h2 id="support" className="text-2xl font-bold text-slate-900">
             Need Help?
           </h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
+          <div className="bg-orange-50 border border-orange-200 rounded-lg p-6">
             <p className="text-slate-700 mb-4">
               If you encounter any issues during installation, our support team is here
               to help:
@@ -266,13 +266,13 @@ export default function InstallationPage() {
             <div className="flex gap-3">
               <a
                 href="/docs/contact"
-                className="inline-block px-6 py-2 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors"
+                className="inline-block px-6 py-2 bg-brand text-white rounded-lg font-medium hover:opacity-90 transition-colors"
               >
                 Contact Support
               </a>
               <a
                 href="/docs/faq"
-                className="inline-block px-6 py-2 border border-blue-600 text-blue-600 rounded-lg font-medium hover:bg-blue-600 hover:text-white transition-colors"
+                className="inline-block px-6 py-2 border border-brand text-brand rounded-lg font-medium hover:bg-brand hover:text-white transition-colors"
               >
                 View FAQ
               </a>

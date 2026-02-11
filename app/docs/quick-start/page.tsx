@@ -156,10 +156,10 @@ export default function QuickStart() {
           <div className="space-y-3">
             <p className="text-slate-700">For more information:</p>
             <ul className="space-y-2 text-slate-700">
-              <li>• Read about <a href="/docs/creating-tickets" className="text-blue-600 hover:underline">creating tickets in detail</a></li>
-              <li>• Learn how <a href="/docs/dashboard" className="text-blue-600 hover:underline">to use your dashboard</a></li>
-              <li>• Check the <a href="/docs/faq" className="text-blue-600 hover:underline">FAQ</a> for common questions</li>
-              <li>• <a href="/docs/contact" className="text-blue-600 hover:underline">Contact support</a> if you need help</li>
+              <li>• Read about <a href="/docs/creating-tickets" className="text-brand hover:underline">creating tickets in detail</a></li>
+              <li>• Learn how <a href="/docs/dashboard" className="text-brand hover:underline">to use your dashboard</a></li>
+              <li>• Check the <a href="/docs/faq" className="text-brand hover:underline">FAQ</a> for common questions</li>
+              <li>• <a href="/docs/contact" className="text-brand hover:underline">Contact support</a> if you need help</li>
             </ul>
           </div>
         </section>

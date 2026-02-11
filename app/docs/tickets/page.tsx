@@ -27,7 +27,7 @@ export default function TicketsPage() {
             A ticket is a record that captures an issue, request, or task that needs
             to be addressed. Each ticket contains important information such as:
           </p>
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mt-3">
+          <div className="bg-orange-50 border border-orange-200 rounded-lg p-4 mt-3">
             <ul className="space-y-2 text-slate-700">
               <li>• <strong>Title</strong> - A concise summary of the issue</li>
               <li>• <strong>Description</strong> - Detailed information about the problem</li>
@@ -48,7 +48,7 @@ export default function TicketsPage() {
           <div className="space-y-4">
             <div className="flex gap-4">
               <div className="flex flex-col items-center">
-                <div className="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold">
+                <div className="w-12 h-12 rounded-full bg-brand text-white flex items-center justify-center font-bold">
                   1
                 </div>
                 <div className="w-1 h-16 bg-slate-300 my-2" />
@@ -63,7 +63,7 @@ export default function TicketsPage() {
 
             <div className="flex gap-4">
               <div className="flex flex-col items-center">
-                <div className="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold">
+                <div className="w-12 h-12 rounded-full bg-brand text-white flex items-center justify-center font-bold">
                   2
                 </div>
                 <div className="w-1 h-16 bg-slate-300 my-2" />
@@ -78,7 +78,7 @@ export default function TicketsPage() {
 
             <div className="flex gap-4">
               <div className="flex flex-col items-center">
-                <div className="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold">
+                <div className="w-12 h-12 rounded-full bg-brand text-white flex items-center justify-center font-bold">
                   3
                 </div>
                 <div className="w-1 h-16 bg-slate-300 my-2" />
@@ -93,7 +93,7 @@ export default function TicketsPage() {
 
             <div className="flex gap-4">
               <div className="flex flex-col items-center">
-                <div className="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold">
+                <div className="w-12 h-12 rounded-full bg-brand text-white flex items-center justify-center font-bold">
                   4
                 </div>
                 <div className="w-1 h-16 bg-slate-300 my-2" />

@@ -19,7 +19,7 @@ export default function DocsIndex() {
     <DocsLayout>
       <div className="space-y-12">
         <section className="space-y-4">
-          <div className="inline-flex items-center gap-2 rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700">
+          <div className="inline-flex items-center gap-2 rounded-full bg-orange-50 px-3 py-1 text-xs font-semibold text-brand">
             Last updated: 2026-02-10
           </div>
           <h1 className="text-4xl sm:text-5xl font-bold text-slate-900">
@@ -33,7 +33,7 @@ export default function DocsIndex() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="flex items-center justify-between gap-2 rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm font-medium text-slate-800 hover:border-blue-400 hover:bg-blue-50 transition-colors"
+                className="flex items-center justify-between gap-2 rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm font-medium text-slate-800 hover:border-orange-400 hover:bg-orange-50 transition-colors"
               >
                 {link.label}
                 <ChevronRight size={16} className="text-slate-400" />
@@ -167,7 +167,7 @@ export default function DocsIndex() {
               </ul>
               <Link
                 href="/docs/priority"
-                className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-blue-700 hover:text-blue-800"
+                className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-brand hover:opacity-80"
               >
                 Learn more about priorities
                 <ChevronRight size={16} />
@@ -188,7 +188,7 @@ export default function DocsIndex() {
                 <li>2. Filter by status or search by ID, title, system, or description.</li>
                 <li>3. Open a ticket to see status, priority, attachments, and comments.</li>
               </ol>
-              <Link href="/docs/dashboard" className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-blue-700">
+              <Link href="/docs/dashboard" className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-brand">
                 Track tickets in the dashboard
                 <ChevronRight size={16} />
               </Link>
@@ -204,7 +204,7 @@ export default function DocsIndex() {
               <p className="mt-2 text-xs text-slate-500">
                 If no active systems are available, contact support to assign systems to your account.
               </p>
-              <Link href="/docs/creating-tickets" className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-blue-700">
+              <Link href="/docs/creating-tickets" className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-brand">
                 Creating a ticket guide
                 <ChevronRight size={16} />
               </Link>
@@ -216,7 +216,7 @@ export default function DocsIndex() {
                 <li>2. Scroll to Comments, type a message, and Post Comment.</li>
                 <li>3. Use Reply to respond to a specific comment.</li>
               </ol>
-              <Link href="/docs/comments" className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-blue-700">
+              <Link href="/docs/comments" className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-brand">
                 Commenting guidelines
                 <ChevronRight size={16} />
               </Link>
@@ -232,7 +232,7 @@ export default function DocsIndex() {
               <p className="text-sm text-slate-600">
                 Use Audit Logs to review login activity and ticket actions. Filter by action for faster search.
               </p>
-              <Link href="/docs/reports" className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-blue-700">
+              <Link href="/docs/reports" className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-brand">
                 Audit log filters
                 <ChevronRight size={16} />
               </Link>
@@ -314,13 +314,13 @@ export default function DocsIndex() {
             </div>
           </div>
           <div className="flex flex-wrap gap-3">
-            <Link href="/docs/users" className="px-4 py-2 rounded-lg border border-slate-200 text-sm font-medium text-slate-700 hover:border-blue-400 hover:bg-blue-50 transition-colors">
+            <Link href="/docs/users" className="px-4 py-2 rounded-lg border border-slate-200 text-sm font-medium text-slate-700 hover:border-orange-400 hover:bg-orange-50 transition-colors">
               User management
             </Link>
-            <Link href="/docs/settings" className="px-4 py-2 rounded-lg border border-slate-200 text-sm font-medium text-slate-700 hover:border-blue-400 hover:bg-blue-50 transition-colors">
+            <Link href="/docs/settings" className="px-4 py-2 rounded-lg border border-slate-200 text-sm font-medium text-slate-700 hover:border-orange-400 hover:bg-orange-50 transition-colors">
               System settings
             </Link>
-            <Link href="/docs/permissions" className="px-4 py-2 rounded-lg border border-slate-200 text-sm font-medium text-slate-700 hover:border-blue-400 hover:bg-blue-50 transition-colors">
+            <Link href="/docs/permissions" className="px-4 py-2 rounded-lg border border-slate-200 text-sm font-medium text-slate-700 hover:border-orange-400 hover:bg-orange-50 transition-colors">
               Permissions & roles
             </Link>
           </div>
@@ -349,13 +349,13 @@ export default function DocsIndex() {
             </div>
           </div>
           <div className="flex flex-wrap gap-3">
-            <Link href="/docs/faq" className="px-4 py-2 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition-colors">
+            <Link href="/docs/faq" className="px-4 py-2 rounded-lg bg-brand text-white text-sm font-medium hover:opacity-90 transition-colors">
               View full FAQ
             </Link>
-            <Link href="/docs/troubleshooting" className="px-4 py-2 rounded-lg border border-blue-600 text-blue-600 text-sm font-medium hover:bg-blue-600 hover:text-white transition-colors">
+            <Link href="/docs/troubleshooting" className="px-4 py-2 rounded-lg border border-brand text-brand text-sm font-medium hover:bg-brand hover:text-white transition-colors">
               Troubleshooting guide
             </Link>
-            <Link href="/docs/contact" className="px-4 py-2 rounded-lg border border-slate-200 text-slate-700 text-sm font-medium hover:border-blue-400 hover:bg-blue-50 transition-colors">
+            <Link href="/docs/contact" className="px-4 py-2 rounded-lg border border-slate-200 text-slate-700 text-sm font-medium hover:border-orange-400 hover:bg-orange-50 transition-colors">
               Contact support
             </Link>
           </div>
@@ -375,7 +375,7 @@ export default function DocsIndex() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="flex items-center gap-2 rounded-lg border border-slate-200 px-4 py-3 text-sm font-medium text-slate-700 hover:border-blue-400 hover:bg-blue-50 transition-colors"
+                className="flex items-center gap-2 rounded-lg border border-slate-200 px-4 py-3 text-sm font-medium text-slate-700 hover:border-orange-400 hover:bg-orange-50 transition-colors"
               >
                 {link.label}
                 <ChevronRight size={16} className="ml-auto text-slate-400" />

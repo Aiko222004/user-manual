@@ -62,11 +62,11 @@ export default function StatusPage() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 mb-6">
             {['New', 'Open', 'In Progress', 'Resolved', 'Closed'].map((s, i) => (
               <div key={s} className="flex items-center gap-3 flex-1">
-                <div className="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold">
+                <div className="w-12 h-12 rounded-full bg-brand text-white flex items-center justify-center font-bold">
                   {i + 1}
                 </div>
                 {i < 4 && (
-                  <div className="hidden md:block h-1 flex-1 bg-blue-300" />
+                  <div className="hidden md:block h-1 flex-1 bg-orange-200" />
                 )}
                 <p className="hidden md:block font-semibold text-slate-900">{s}</p>
               </div>

@@ -30,7 +30,7 @@ export default function WorkflowsPage() {
           <h2 id="default-workflow" className="text-2xl font-bold text-slate-900">
             Default Workflow
           </h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 space-y-3">
+          <div className="bg-orange-50 border border-orange-200 rounded-lg p-6 space-y-3">
             <p className="text-slate-700">
               New → Open → In Progress → Resolved → Closed
             </p>

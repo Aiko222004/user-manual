@@ -21,25 +21,25 @@ export default function ManagingTicketsPage() {
           <h2 id="ticket-assignment" className="text-2xl font-bold text-slate-900">
             About Ticket Assignment
           </h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 space-y-3">
+          <div className="bg-orange-50 border border-orange-200 rounded-lg p-6 space-y-3">
             <p className="text-slate-700">
               Super admins assign tickets to you based on availability, expertise, and workload. Once assigned, you become responsible for:
             </p>
             <ul className="space-y-2 text-slate-700 mt-3">
               <li className="flex gap-2">
-                <Check size={20} className="text-blue-600 flex-shrink-0 mt-0.5" />
+                <Check size={20} className="text-brand flex-shrink-0 mt-0.5" />
                 <span>Investigating and diagnosing the issue</span>
               </li>
               <li className="flex gap-2">
-                <Check size={20} className="text-blue-600 flex-shrink-0 mt-0.5" />
+                <Check size={20} className="text-brand flex-shrink-0 mt-0.5" />
                 <span>Communicating progress to the customer</span>
               </li>
               <li className="flex gap-2">
-                <Check size={20} className="text-blue-600 flex-shrink-0 mt-0.5" />
+                <Check size={20} className="text-brand flex-shrink-0 mt-0.5" />
                 <span>Resolving the issue and closing the ticket</span>
               </li>
               <li className="flex gap-2">
-                <Check size={20} className="text-blue-600 flex-shrink-0 mt-0.5" />
+                <Check size={20} className="text-brand flex-shrink-0 mt-0.5" />
                 <span>Adding internal notes and documentation</span>
               </li>
             </ul>
@@ -51,14 +51,14 @@ export default function ManagingTicketsPage() {
             Working on Assigned Tickets
           </h2>
           <div className="space-y-4">
-            <div className="border-l-4 border-blue-500 bg-blue-50 p-4 rounded">
+            <div className="border-l-4 border-orange-500 bg-orange-50 p-4 rounded">
               <h4 className="font-semibold text-slate-900 mb-2">1. Review the Ticket</h4>
               <p className="text-slate-700 text-sm">
                 Read the customer's description, check attachments, and understand the issue fully before responding.
               </p>
             </div>
 
-            <div className="border-l-4 border-blue-500 bg-blue-50 p-4 rounded">
+            <div className="border-l-4 border-orange-500 bg-orange-50 p-4 rounded">
               <h4 className="font-semibold text-slate-900 mb-2">2. Update Status</h4>
               <p className="text-slate-700 text-sm mb-2">
                 Change the ticket status to indicate your progress:
@@ -72,14 +72,14 @@ export default function ManagingTicketsPage() {
               </ul>
             </div>
 
-            <div className="border-l-4 border-blue-500 bg-blue-50 p-4 rounded">
+            <div className="border-l-4 border-orange-500 bg-orange-50 p-4 rounded">
               <h4 className="font-semibold text-slate-900 mb-2">3. Add Comments</h4>
               <p className="text-slate-700 text-sm">
                 Keep the customer informed with regular updates. Use clear, professional language and provide specific information about your progress.
               </p>
             </div>
 
-            <div className="border-l-4 border-blue-500 bg-blue-50 p-4 rounded">
+            <div className="border-l-4 border-orange-500 bg-orange-50 p-4 rounded">
               <h4 className="font-semibold text-slate-900 mb-2">4. Add Internal Notes</h4>
               <p className="text-slate-700 text-sm">
                 Use internal notes to document your troubleshooting steps, technical details, and decisions. These are only visible to your team.

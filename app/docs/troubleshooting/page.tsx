@@ -89,7 +89,7 @@ export default function TroubleshootingPage() {
                 className="border border-slate-200 rounded-lg p-6 hover:shadow-md transition-shadow"
               >
                 <div className="flex gap-3 mb-4">
-                  <AlertCircle size={20} className="text-blue-600 flex-shrink-0 mt-0.5" />
+                  <AlertCircle size={20} className="text-brand flex-shrink-0 mt-0.5" />
                   <h3 className="font-semibold text-slate-900 text-lg">{item.issue}</h3>
                 </div>
                 <div className="ml-7">
@@ -134,20 +134,20 @@ export default function TroubleshootingPage() {
           <h2 id="still-stuck" className="text-2xl font-bold text-slate-900">
             Still Stuck?
           </h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
+          <div className="bg-orange-50 border border-orange-200 rounded-lg p-6">
             <p className="text-slate-700 mb-4">
               If none of these solutions work, please contact our support team:
             </p>
             <div className="flex gap-3">
               <a
                 href="/docs/contact"
-                className="inline-block px-6 py-2 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors"
+                className="inline-block px-6 py-2 bg-brand text-white rounded-lg font-medium hover:opacity-90 transition-colors"
               >
                 Contact Support
               </a>
               <a
                 href="/docs/faq"
-                className="inline-block px-6 py-2 border border-blue-600 text-blue-600 rounded-lg font-medium hover:bg-blue-600 hover:text-white transition-colors"
+                className="inline-block px-6 py-2 border border-brand text-brand rounded-lg font-medium hover:bg-brand hover:text-white transition-colors"
               >
                 View FAQ
               </a>

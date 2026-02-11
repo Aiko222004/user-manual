@@ -72,7 +72,7 @@ export default function CustomFieldsPage() {
           <p className="text-slate-700 leading-relaxed mb-4">
             Administrators can create custom fields in Settings &gt; Custom Fields:
           </p>
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 space-y-3">
+          <div className="bg-orange-50 border border-orange-200 rounded-lg p-6 space-y-3">
             <ol className="space-y-2 text-slate-700 list-decimal list-inside">
               <li>Click "Add Field"</li>
               <li>Give it a descriptive name</li>

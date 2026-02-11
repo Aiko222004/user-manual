@@ -249,7 +249,7 @@ export default function CreatingTicketsPage() {
           <h2 id="after-creation" className="text-2xl font-bold text-slate-900">
             After Creating a Ticket
           </h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 space-y-3">
+          <div className="bg-orange-50 border border-orange-200 rounded-lg p-6 space-y-3">
             <p className="text-slate-700">Once your ticket is created:</p>
             <ol className="space-y-2 text-slate-700 list-decimal list-inside">
               <li>You'll see a confirmation with the ticket ID</li>

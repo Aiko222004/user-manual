@@ -21,27 +21,27 @@ export default function AssignmentPage() {
           <h2 id="assignment-workflow" className="text-2xl font-bold text-slate-900">
             The Assignment Workflow
           </h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 space-y-3">
+          <div className="bg-orange-50 border border-orange-200 rounded-lg p-6 space-y-3">
             <p className="text-slate-700 font-semibold">When a customer creates a ticket:</p>
             <ol className="space-y-3 text-slate-700 ml-4">
               <li className="flex gap-3">
-                <span className="flex items-center justify-center w-6 h-6 bg-blue-600 text-white rounded-full text-sm font-bold flex-shrink-0">1</span>
+                <span className="flex items-center justify-center w-6 h-6 bg-brand text-white rounded-full text-sm font-bold flex-shrink-0">1</span>
                 <span><strong>Ticket Created:</strong> Customer submits a support request</span>
               </li>
               <li className="flex gap-3">
-                <span className="flex items-center justify-center w-6 h-6 bg-blue-600 text-white rounded-full text-sm font-bold flex-shrink-0">2</span>
+                <span className="flex items-center justify-center w-6 h-6 bg-brand text-white rounded-full text-sm font-bold flex-shrink-0">2</span>
                 <span><strong>Super Admin Reviews:</strong> Super admin receives the ticket in the queue</span>
               </li>
               <li className="flex gap-3">
-                <span className="flex items-center justify-center w-6 h-6 bg-blue-600 text-white rounded-full text-sm font-bold flex-shrink-0">3</span>
+                <span className="flex items-center justify-center w-6 h-6 bg-brand text-white rounded-full text-sm font-bold flex-shrink-0">3</span>
                 <span><strong>Assignment Decision:</strong> Super admin assigns to appropriate admin/developer</span>
               </li>
               <li className="flex gap-3">
-                <span className="flex items-center justify-center w-6 h-6 bg-blue-600 text-white rounded-full text-sm font-bold flex-shrink-0">4</span>
+                <span className="flex items-center justify-center w-6 h-6 bg-brand text-white rounded-full text-sm font-bold flex-shrink-0">4</span>
                 <span><strong>You Receive It:</strong> Ticket appears in your queue with assignment notification</span>
               </li>
               <li className="flex gap-3">
-                <span className="flex items-center justify-center w-6 h-6 bg-blue-600 text-white rounded-full text-sm font-bold flex-shrink-0">5</span>
+                <span className="flex items-center justify-center w-6 h-6 bg-brand text-white rounded-full text-sm font-bold flex-shrink-0">5</span>
                 <span><strong>You Resolve It:</strong> You work on the ticket and resolve the issue</span>
               </li>
             </ol>

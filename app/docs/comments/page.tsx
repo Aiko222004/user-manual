@@ -26,7 +26,7 @@ export default function CommentsPage() {
           <p className="text-slate-700 leading-relaxed mb-4">
             Comments are the primary way to communicate about a ticket:
           </p>
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 space-y-3">
+          <div className="bg-orange-50 border border-orange-200 rounded-lg p-6 space-y-3">
             <ol className="space-y-2 text-slate-700 list-decimal list-inside">
               <li>Open the ticket you want to comment on</li>
               <li>Scroll to the "Comments" section</li>

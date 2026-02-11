@@ -75,7 +75,7 @@ export default function PriorityPage() {
             When creating or editing a ticket, select the appropriate priority level
             based on its impact and urgency:
           </p>
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 space-y-3 mt-4">
+          <div className="bg-orange-50 border border-orange-200 rounded-lg p-6 space-y-3 mt-4">
             <p className="text-slate-700">
               1. Open or create a ticket<br />
               2. Locate the "Priority" field<br />

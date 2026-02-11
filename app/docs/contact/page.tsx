@@ -23,14 +23,14 @@ export default function ContactPage() {
           </h2>
           <div className="grid md:grid-cols-3 gap-4">
             <div className="border border-slate-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
-              <Mail size={32} className="text-blue-600 mb-4" />
+              <Mail size={32} className="text-brand mb-4" />
               <h3 className="font-semibold text-slate-900 mb-2">Email Support</h3>
               <p className="text-slate-600 text-sm mb-4">
                 For detailed inquiries and issues requiring thorough documentation
               </p>
               <a
                 href="mailto:support@ticketsystem.com"
-                className="text-blue-600 hover:underline font-medium"
+                className="text-brand hover:underline font-medium"
               >
                 support@ticketsystem.com
               </a>
@@ -79,7 +79,7 @@ export default function ContactPage() {
               <input
                 type="text"
                 id="name"
-                className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
                 placeholder="Your name"
                 required
               />
@@ -92,7 +92,7 @@ export default function ContactPage() {
               <input
                 type="email"
                 id="email"
-                className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
                 placeholder="your@email.com"
                 required
               />
@@ -108,7 +108,7 @@ export default function ContactPage() {
               <input
                 type="text"
                 id="subject"
-                className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
                 placeholder="How can we help?"
                 required
               />
@@ -123,7 +123,7 @@ export default function ContactPage() {
               </label>
               <select
                 id="category"
-                className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
               >
                 <option value="">Select a category</option>
                 <option value="bug">Bug Report</option>
@@ -144,7 +144,7 @@ export default function ContactPage() {
               <textarea
                 id="message"
                 rows={6}
-                className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
                 placeholder="Please provide as much detail as possible..."
                 required
               />
@@ -153,7 +153,7 @@ export default function ContactPage() {
             <div className="flex gap-3">
               <button
                 type="submit"
-                className="px-6 py-2 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors"
+                className="px-6 py-2 bg-brand text-white rounded-lg font-medium hover:opacity-90 transition-colors"
               >
                 Send Message
               </button>
@@ -203,7 +203,7 @@ export default function ContactPage() {
                   <p className="text-sm text-slate-600">{item.desc}</p>
                 </div>
                 <div className="text-right">
-                  <p className="font-semibold text-blue-600">{item.time}</p>
+                  <p className="font-semibold text-brand">{item.time}</p>
                 </div>
               </div>
             ))}
@@ -243,7 +243,7 @@ export default function ContactPage() {
               <a
                 key={i}
                 href={item.link}
-                className="border border-slate-200 rounded-lg p-4 hover:shadow-md hover:border-blue-300 transition-all"
+                className="border border-slate-200 rounded-lg p-4 hover:shadow-md hover:border-orange-300 transition-all"
               >
                 <h3 className="font-semibold text-slate-900 mb-1">{item.title}</h3>
                 <p className="text-slate-600 text-sm">{item.desc}</p>
@@ -252,14 +252,14 @@ export default function ContactPage() {
           </div>
         </section>
 
-        <section className="bg-blue-50 border border-blue-200 rounded-lg p-6">
-          <h2 id="sla" className="text-2xl font-bold text-blue-900 mb-4">
+        <section className="bg-orange-50 border border-orange-200 rounded-lg p-6">
+          <h2 id="sla" className="text-2xl font-bold text-orange-900 mb-4">
             Service Level Agreement
           </h2>
-          <p className="text-blue-800 mb-4">
+          <p className="text-orange-800 mb-4">
             We're committed to providing excellent support. Our SLA guarantees:
           </p>
-          <ul className="space-y-2 text-blue-800">
+          <ul className="space-y-2 text-orange-800">
             <li className="flex gap-2">
               <span>✓</span>
               <span>

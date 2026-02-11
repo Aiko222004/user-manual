@@ -14,9 +14,7 @@ export function Header() {
       <header className="sticky top-0 z-40 bg-white border-b border-slate-200">
         <div className="flex items-center justify-between px-4 md:px-6 py-4">
           <Link href="/docs" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">∞</span>
-            </div>
+            <img src="/Resolve logo.svg" alt="Bellesoft Resolve" className="w-10 h-10" />
             <div className="hidden sm:block">
               <h1 className="font-bold text-slate-900">Bellesoft Resolve</h1>
               <p className="text-xs text-slate-600">User Manual</p>
@@ -30,7 +28,7 @@ export function Header() {
                 placeholder="Search documentation..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full px-4 py-2 pr-10 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 pr-10 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
               />
               <Search
                 size={18}
@@ -61,7 +59,7 @@ export function Header() {
             </a>
             <Link
               href="/docs/contact"
-              className="px-3 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors"
+              className="px-3 py-2 bg-brand text-white rounded-lg text-sm font-medium hover:opacity-90 transition-colors"
             >
               Support
             </Link>
@@ -77,7 +75,7 @@ export function Header() {
                   placeholder="Search documentation..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full px-4 py-2 pr-10 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full px-4 py-2 pr-10 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
                 />
                 <Search
                   size={18}

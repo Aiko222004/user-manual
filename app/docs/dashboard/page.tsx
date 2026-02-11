@@ -68,7 +68,7 @@ export default function DashboardPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-6 space-y-3">
               <div className="flex items-start gap-3">
-                <BarChart3 className="text-blue-600 flex-shrink-0 mt-1" size={24} />
+                <BarChart3 className="text-brand flex-shrink-0 mt-1" size={24} />
                 <div>
                   <h3 className="font-semibold text-slate-900">
                     Statistics Widget
@@ -166,34 +166,34 @@ export default function DashboardPage() {
           <h2 id="customization" className="text-2xl font-bold text-slate-900">
             Customizing Your Dashboard
           </h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 space-y-4">
+          <div className="bg-orange-50 border border-orange-200 rounded-lg p-6 space-y-4">
             <p className="text-slate-700">
               Make your dashboard work for you:
             </p>
             <ul className="space-y-3 text-slate-700">
               <li className="flex gap-3">
-                <span className="text-blue-600 font-bold">1.</span>
+                <span className="text-brand font-bold">1.</span>
                 <span>
                   <strong>Rearrange Widgets:</strong> Drag and drop widgets to your
                   preferred layout
                 </span>
               </li>
               <li className="flex gap-3">
-                <span className="text-blue-600 font-bold">2.</span>
+                <span className="text-brand font-bold">2.</span>
                 <span>
                   <strong>Hide/Show Sections:</strong> Toggle widgets on or off based
                   on your needs
                 </span>
               </li>
               <li className="flex gap-3">
-                <span className="text-blue-600 font-bold">3.</span>
+                <span className="text-brand font-bold">3.</span>
                 <span>
                   <strong>Save Custom Views:</strong> Create and save filtered views
                   for quick access
                 </span>
               </li>
               <li className="flex gap-3">
-                <span className="text-blue-600 font-bold">4.</span>
+                <span className="text-brand font-bold">4.</span>
                 <span>
                   <strong>Set Preferences:</strong> Choose what data matters most to
                   you

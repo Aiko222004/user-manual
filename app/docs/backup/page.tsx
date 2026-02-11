@@ -43,7 +43,7 @@ export default function BackupPage() {
           <p className="text-slate-700 leading-relaxed">
             To restore from a backup:
           </p>
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 space-y-3 mt-4">
+          <div className="bg-orange-50 border border-orange-200 rounded-lg p-6 space-y-3 mt-4">
             <ol className="space-y-2 text-slate-700 list-decimal list-inside">
               <li>Go to Settings &gt; Backup &amp; Recovery</li>
               <li>Select the backup date you want to restore</li>

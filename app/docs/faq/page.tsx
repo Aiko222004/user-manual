@@ -204,24 +204,24 @@ export default function FAQPage() {
           </section>
         ))}
 
-        <section className="space-y-4 bg-blue-50 border border-blue-200 rounded-lg p-6">
-          <h2 id="still-need-help" className="text-2xl font-bold text-blue-900">
+        <section className="space-y-4 bg-orange-50 border border-orange-200 rounded-lg p-6">
+          <h2 id="still-need-help" className="text-2xl font-bold text-orange-900">
             Still Need Help?
           </h2>
-          <p className="text-blue-800">
+          <p className="text-orange-800">
             If you can't find the answer to your question, please contact our support
             team. We're here to help!
           </p>
           <div className="flex gap-3">
             <a
               href="/docs/contact"
-              className="inline-block px-6 py-2 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors"
+              className="inline-block px-6 py-2 bg-brand text-white rounded-lg font-medium hover:opacity-90 transition-colors"
             >
               Contact Support
             </a>
             <a
               href="/docs/troubleshooting"
-              className="inline-block px-6 py-2 border border-blue-600 text-blue-600 rounded-lg font-medium hover:bg-blue-600 hover:text-white transition-colors"
+              className="inline-block px-6 py-2 border border-brand text-brand rounded-lg font-medium hover:bg-brand hover:text-white transition-colors"
             >
               Troubleshooting Guide
             </a>
