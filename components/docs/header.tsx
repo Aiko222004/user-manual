@@ -1,13 +1,17 @@
 'use client'
 
-import { useState } from 'react'
 import { Search, Menu, X } from 'lucide-react'
 import Link from 'next/link'
+import { useState } from 'react'
 import { Sidebar } from './sidebar'
 
-export function Header() {
+interface HeaderProps {
+  searchQuery: string
+  onSearchChange: (query: string) => void
+}
+
+export function Header({ searchQuery, onSearchChange }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [searchQuery, setSearchQuery] = useState('')
 
   return (
     <>
@@ -27,7 +31,7 @@ export function Header() {
                 type="search"
                 placeholder="Search documentation..."
                 value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
+                onChange={(e) => onSearchChange(e.target.value)}
                 className="w-full px-4 py-2 pr-10 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
               />
               <Search
@@ -74,7 +78,7 @@ export function Header() {
                   type="search"
                   placeholder="Search documentation..."
                   value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
+                  onChange={(e) => onSearchChange(e.target.value)}
                   className="w-full px-4 py-2 pr-10 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
                 />
                 <Search
@@ -83,7 +87,7 @@ export function Header() {
                 />
               </div>
             </div>
-            <Sidebar variant="mobile" />
+            <Sidebar variant="mobile" searchQuery={searchQuery} />
           </div>
         )}
       </header>

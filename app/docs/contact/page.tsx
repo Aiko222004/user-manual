@@ -29,12 +29,11 @@ export default function ContactPage() {
                 For detailed inquiries and issues requiring thorough documentation
               </p>
               <a
-                href="mailto:support@ticketsystem.com"
+                href="mailto:diffreyna7@gmail.com"
                 className="text-brand hover:underline font-medium"
               >
-                support@ticketsystem.com
+                diffreyna7@gmail.com
               </a>
-              <p className="text-xs text-slate-500 mt-2">Response time: 2-4 hours</p>
             </div>
 
             <div className="border border-slate-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
@@ -57,8 +56,8 @@ export default function ContactPage() {
               <p className="text-slate-600 text-sm mb-4">
                 For urgent issues and direct assistance
               </p>
-              <a href="tel:+18003334444" className="text-purple-600 hover:underline font-medium">
-                +1-800-333-4444
+              <a href="tel:+639211524763" className="text-purple-600 hover:underline font-medium">
+                +63 921 152 4763
               </a>
               <p className="text-xs text-slate-500 mt-2">
                 Available: Mon-Fri 9AM-9PM EST
