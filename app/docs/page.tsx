@@ -145,6 +145,79 @@ export default function DocsIndex() {
           <h2 id="status-priority" className="scroll-mt-24 text-2xl font-bold text-slate-900">
             Ticket Status & Priority
           </h2>
+
+          <div className="rounded-xl border border-slate-200 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 p-8 md:p-10 overflow-visible">
+            <h3 className="font-semibold text-white mb-8 text-xl">Ticket Lifecycle</h3>
+            
+            {/* SVG Container for the entire diagram */}
+            <svg className="w-full" style={{minHeight: "350px"}} viewBox="0 0 2400 320" preserveAspectRatio="xMidYMid meet">
+              {/* Define arrow markers */}
+              <defs>
+                <marker id="arrowWhite" markerWidth="14" markerHeight="14" refX="12" refY="5" orient="auto">
+                  <polygon points="0 0, 14 5, 0 10" fill="white" />
+                </marker>
+              </defs>
+
+              {/* Top Flow Lines and Arrows */}
+              <line x1="270" y1="80" x2="350" y2="80" stroke="white" strokeWidth="4" markerEnd="url(#arrowWhite)" />
+              <line x1="550" y1="80" x2="630" y2="80" stroke="white" strokeWidth="4" markerEnd="url(#arrowWhite)" />
+              <line x1="830" y1="80" x2="910" y2="80" stroke="white" strokeWidth="4" markerEnd="url(#arrowWhite)" />
+              <line x1="1130" y1="80" x2="1210" y2="80" stroke="white" strokeWidth="4" markerEnd="url(#arrowWhite)" />
+
+              {/* Line from Overdue to Resolve */}
+              <line x1="1440" y1="105" x2="1560" y2="190" stroke="white" strokeWidth="4" markerEnd="url(#arrowWhite)" />
+
+              {/* Line from Resolve to Closed */}
+              <line x1="1680" y1="210" x2="1760" y2="210" stroke="white" strokeWidth="4" markerEnd="url(#arrowWhite)" />
+
+              {/* Status Boxes */}
+              {/* Ticket Submitted */}
+              <rect x="20" y="0" width="250" height="160" rx="12" fill="white" strokeWidth="0" />
+              <text x="145" y="65" textAnchor="middle" fontSize="24" fontWeight="bold" fill="#1e293b">Ticket</text>
+              <text x="145" y="95" textAnchor="middle" fontSize="24" fontWeight="bold" fill="#1e293b">Submitted</text>
+
+              {/* Open */}
+              <rect x="370" y="0" width="160" height="160" rx="12" fill="white" strokeWidth="0" />
+              <text x="450" y="65" textAnchor="middle" fontSize="24" fontWeight="bold" fill="#1e293b">Open</text>
+              <text x="450" y="110" textAnchor="middle" fontSize="13" fill="#64748b">if declined</text>
+              <text x="450" y="130" textAnchor="middle" fontSize="13" fill="#64748b">closed</text>
+
+              {/* Assigned */}
+              <rect x="650" y="0" width="160" height="160" rx="12" fill="white" strokeWidth="0" />
+              <text x="730" y="85" textAnchor="middle" fontSize="24" fontWeight="bold" fill="#1e293b">Assigned</text>
+
+              {/* In progress */}
+              <rect x="930" y="0" width="180" height="160" rx="12" fill="white" strokeWidth="0" />
+              <text x="1020" y="85" textAnchor="middle" fontSize="24" fontWeight="bold" fill="#1e293b">In progress</text>
+
+              {/* Overdue */}
+              <rect x="1260" y="0" width="160" height="160" rx="12" fill="#f97316" strokeWidth="0" />
+              <text x="1340" y="65" textAnchor="middle" fontSize="24" fontWeight="bold" fill="white">Overdue</text>
+              <text x="1340" y="100" textAnchor="middle" fontSize="13" fill="white">occur once</text>
+              <text x="1340" y="120" textAnchor="middle" fontSize="13" fill="white">passed</text>
+
+              {/* Resolve */}
+              <rect x="1500" y="150" width="160" height="160" rx="12" fill="white" strokeWidth="0" />
+              <text x="1580" y="240" textAnchor="middle" fontSize="24" fontWeight="bold" fill="#1e293b">Resolve</text>
+
+              {/* Closed */}
+              <rect x="1780" y="150" width="160" height="160" rx="12" fill="white" strokeWidth="0" />
+              <text x="1860" y="240" textAnchor="middle" fontSize="24" fontWeight="bold" fill="#1e293b">Closed</text>
+            </svg>
+
+            {/* Notes section */}
+            <div className="mt-8 flex flex-col sm:flex-row gap-8 text-white text-sm border-t border-white border-opacity-20 pt-6">
+              <div className="flex gap-4">
+                <span className="text-orange-400 font-bold text-2xl flex-shrink-0">•</span>
+                <span className="text-base leading-relaxed">Open – if declined ticket status will be closed</span>
+              </div>
+              <div className="flex gap-4">
+                <span className="text-orange-400 font-bold text-2xl flex-shrink-0">•</span>
+                <span className="text-base leading-relaxed">Overdue – occur once ticket passed the resolution</span>
+              </div>
+            </div>
+          </div>
+
           <div className="grid gap-4 md:grid-cols-2">
             <div className="rounded-lg border border-slate-200 bg-white p-4">
               <h3 className="font-semibold text-slate-900 mb-2">Status</h3>

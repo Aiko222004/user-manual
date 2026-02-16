@@ -24,19 +24,39 @@ export default function ContactPage() {
           <div className="grid md:grid-cols-3 gap-4">
             <div className="border border-slate-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <Mail size={32} className="text-brand mb-4" />
-              <h3 className="font-semibold text-slate-900 mb-2">Email Support</h3>
+              <h3 className="font-semibold text-slate-900 mb-3">Email Support</h3>
               <p className="text-slate-600 text-sm mb-4">
                 For detailed inquiries and issues requiring thorough documentation
               </p>
-              <a
-                href="mailto:diffreyna7@gmail.com"
-                className="text-brand hover:underline font-medium"
-              >
-                diffreyna7@gmail.com
-              </a>
+              <div className="space-y-2">
+                <a
+                  href="mailto:diffreyna7@gmail.com"
+                  className="text-brand hover:underline font-medium block"
+                >
+                  diffreyna7@gmail.com
+                </a>
+                <a
+                  href="mailto:roncortes123@gmail.com"
+                  className="text-brand hover:underline font-medium block"
+                >
+                  roncortes123@gmail.com
+                </a>
+                <a
+                  href="mailto:jenuardmendoza08@gmail.com"
+                  className="text-brand hover:underline font-medium block"
+                >
+                  jenuardmendoza08@gmail.com
+                </a>
+                <a
+                  href="mailto:johnaliverd@gmail.com"
+                  className="text-brand hover:underline font-medium block"
+                >
+                  johnaliverd@gmail.com
+                </a>
+              </div>
             </div>
 
-            <div className="border border-slate-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
+            {/* <div className="border border-slate-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <MessageSquare size={32} className="text-green-600 mb-4" />
               <h3 className="font-semibold text-slate-900 mb-2">Live Chat</h3>
               <p className="text-slate-600 text-sm mb-4">
@@ -48,7 +68,7 @@ export default function ContactPage() {
               <p className="text-xs text-slate-500 mt-2">
                 Available: Mon-Fri 9AM-6PM EST
               </p>
-            </div>
+            </div> */}
 
             <div className="border border-slate-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <Phone size={32} className="text-purple-600 mb-4" />
